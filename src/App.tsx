@@ -52,7 +52,7 @@ const GlobalStyles = createGlobalStyle`
 function App() {
   const [isLoading, setLoading] = useState(true);
   const init = async () => {
-    setTimeout(() => setLoading(false), 2000);
+    setLoading(false);
   };
 
   useEffect(() => {
